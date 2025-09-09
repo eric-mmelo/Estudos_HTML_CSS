@@ -1,0 +1,108 @@
+/* 4 - External CSS */
+body{
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+p {
+    color: blueviolet;
+}
+
+/* Classes */
+.paragraph {
+    background-color: black;
+    color: aquamarine;
+    padding: 5px;
+}
+
+/* ID */
+#exclusive-title {
+    background-color: purple;
+    color: chartreuse;
+    padding: 10px;
+}
+
+/* Ordem das Regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: crimson;
+}
+
+/* HEX */
+.hex {
+    color: #55a398;
+}
+.hex-2 {
+    color: #9522a4;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255,0,0);
+}
+.mixed-rgb {
+    color: rgb(120, 21, 77);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(0, 17, 255, 0.3);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+.hsl-2 {
+    color: hsl(201, 90%, 25%);
+}
+
+/* Background */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+.bg-2 {
+    background-color: rgb(200, 90, 150);
+    color: #00a7cc;
+}
+
+/* BG Opacity */
+.bgo {
+    background-color: green;
+    opacity: 0.2;
+}
+
+/* BG Image */
+.bg-image {
+    background-image: url("../css/img/squidward-1.jpg");
+    padding: 10px;
+    color: #000;
+}
+
+/* Centralizando Imgagem de BG */
+.not-centered-bg,
+.centered-bg {
+    height: 500px;
+    width: 500px;
+    background-image: url(../css/img/spongebob_coem_on_think.jpg)
+}
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
