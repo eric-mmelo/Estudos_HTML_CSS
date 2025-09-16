@@ -106,3 +106,43 @@ h2 {
     background-position: center;
     background-size: cover;
 }
+
+/* Largura e Altura */
+
+.height-width {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #0ab;
+}
+
+/* Padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color: #fff;
+}
+
+.padding {
+    background-color: #333;
+    padding: 20px;
+}
+
+/* Padding Individual */
+.padding-individual {
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Padding */
+.shorthand-padding {
+     
+}
