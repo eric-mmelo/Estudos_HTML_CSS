@@ -144,5 +144,307 @@ h2 {
 
 /* Shorthand Padding */
 .shorthand-padding {
-     
+     background-color: #444;
+     padding: 18px 14px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/* Padding com Width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+.border-box {
+    background-color: #777;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Border */
+.border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.border-2 {
+    border: 2px dotted #836;
+    padding: 25px;
+}
+
+/* Bordas Individuais */
+.border-left {
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+
+.border-bottom {
+    border-bottom: 3px double blue;
+    background-color: #444;
+    padding: 25px;
+}
+
+/* Bordas Arredondadas */
+.border-radius {
+    border: 5px solid green;
+    background-color: #777;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.border-radius-2 {
+    background-color: #777;
+    color: #fff;
+    padding: 20px;
+    border-radius: 35px;
+}
+
+/* Margem */
+.margin {
+    margin: 10px;
+    background-color: #222;
+}
+.margin-top {
+    margin-top: 50px;
+    background-color: #333;
+    padding: 10px;
+}
+.margin-shorthand {
+    margin: 5px 10px 15px 20px;
+    background-color: #444;
+}
+
+/* Box Model */
+.box-model {
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+}
+
+/* Text Alignment */
+.text-aligned {
+    text-align: right;
+}
+.conteiner-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+    color: #000;
+}
+
+/* Text Decoration */
+.underline{
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: red;
+}
+
+/* Text Transform */
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    text-transform: lowercase;
+}
+
+/* Letter spacing */
+.spacing {
+    letter-spacing: 5px;
+} 
+
+/* Fontes */
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.serif-sans {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* Text Style */
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* Font Weight */
+.thin, .bolder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bolder {
+    font-weight: 1000;
+}
+
+/* Font Size */
+.small {
+    font-size: 10px;
+}
+
+.big {
+    font-size: 72px;
+}
+
+/* Display */
+.inline-box {
+    height: 50px;
+    width: 50px;
+    background-color: #458;
+    margin: 10px;
+    display: inline-block;
+}
+.block {
+    background-color: #333;
+    display: block;
+    margin: 10px;
+}
+
+/* Escondendo elementos */
+.invisible {
+    display: none;
+}
+
+/* Static */
+.static {
+    position: static;
+    background-color: #391;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.relative{
+    position: relative;
+    background-color: #248;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 80px;
+    left: 40px;
+}
+
+/* Absolute */
+.absolute {
+    position: absolute;
+    background-color: #97a;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 3px;
+}
+
+/* Relative com Absolute */
+.relative-container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1, .absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: #826;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Fixed */
+.fixed {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(69, 156, 127);
+    border: 1px solid rgb(0, 174, 255);
+    margin-top: 120px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* Sticky */
+.sticky {
+    width: 80px;
+    height: 80px;
+    background-color: #993;
+    border: 1px solid rgb(6, 71, 102);
+    margin-top: 120px;
+    position: sticky;
+    top: 10px;
+}
+
+/* z-index */
+.absolute-3, .absolute-4, .absolute-5 {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 28, 139);
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 10px;
+    left: 10px;
+    background-color: rgb(190, 216, 44);
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 40px;
+    left: 40px;
+    background-color: #00a7cc;
+    z-index: 1;
 }
